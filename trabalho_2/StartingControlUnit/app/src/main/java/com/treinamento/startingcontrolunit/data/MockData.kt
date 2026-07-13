@@ -9,14 +9,14 @@ import com.treinamento.startingcontrolunit.model.Time
 // ---------- Times ----------
 
 val times = listOf(
-    Time("Flamengo", "🔴⚫", "Rio de Janeiro"),
-    Time("Palmeiras", "🟢⚪", "São Paulo"),
-    Time("São Paulo", "🔴⚪⚫", "São Paulo"),
-    Time("Corinthians", "🐘", "São Paulo"),
-    Time("Grêmio", "🔵⚫⚪", "Porto Alegre"),
-    Time("Internacional", "🔴⚪", "Porto Alegre"),
-    Time("Atlético-MG", "🐓", "Belo Horizonte"),
-    Time("Fluminense", "🟢🟤⚪", "Rio de Janeiro")
+    Time("Flamengo", "", "Rio de Janeiro"),
+    Time("Palmeiras", "", "São Paulo"),
+    Time("São Paulo", "", "São Paulo"),
+    Time("Corinthians", "", "São Paulo"),
+    Time("Grêmio", "", "Porto Alegre"),
+    Time("Internacional", "", "Porto Alegre"),
+    Time("Atlético-MG", "", "Belo Horizonte"),
+    Time("Fluminense", "", "Rio de Janeiro")
 )
 
 private fun timePorNome(nome: String): Time = times.first { it.nome == nome }
